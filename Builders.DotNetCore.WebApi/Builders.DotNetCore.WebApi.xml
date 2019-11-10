@@ -1,0 +1,1345 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Builders.DotNetCore.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Correios.SQLException">
+            <remarks/>
+        </member>
+        <member name="P:Correios.SQLException.errorCode">
+            <remarks/>
+        </member>
+        <member name="P:Correios.SQLException.errorCodeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.SQLException.sQLState">
+            <remarks/>
+        </member>
+        <member name="P:Correios.SQLException.message">
+            <remarks/>
+        </member>
+        <member name="T:Correios.servicoAdicionalXML">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.categoria">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.maximoValorDeclarado">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.maximoValorDeclaradoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.minimoValorDeclarado">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.minimoValorDeclaradoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalXML.sigla">
+            <remarks/>
+        </member>
+        <member name="T:Correios.Exception">
+            <remarks/>
+        </member>
+        <member name="P:Correios.Exception.message">
+            <remarks/>
+        </member>
+        <member name="T:Correios.ErroMontagemRelatorio">
+            <remarks/>
+        </member>
+        <member name="P:Correios.ErroMontagemRelatorio.message">
+            <remarks/>
+        </member>
+        <member name="T:Correios.objetoPostal">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.codigoEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataAtualizacaoCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataAtualizacaoClienteSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataBloqueioObjeto">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataBloqueioObjetoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataCancelamentoEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataCancelamentoEtiquetaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataInclusao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.dataInclusaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.objetoPostalPK">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.plpNu">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.plpNuSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.preListaPostagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.restricaoAerea">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.restricaoAereaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.statusBloqueio">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.statusEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostal.statusEtiquetaSpecified">
+            <remarks/>
+        </member>
+        <member name="T:Correios.objetoPostalPK">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostalPK.codigoEtiqueta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoPostalPK.plpNu">
+            <remarks/>
+        </member>
+        <member name="T:Correios.preListaPostagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.cartaoPostagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.conteudoProibido">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.conteudoProibidoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataAtualizacaoCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataAtualizacaoClienteSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataAtualizacaoSara">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataAtualizacaoSaraSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataFechamento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataFechamentoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataPostagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataPostagemSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataPostagemSara">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.dataPostagemSaraSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.objetosPostais">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.plpCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.plpNu">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.plpXml">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.plpXmlRetorno">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.status">
+            <remarks/>
+        </member>
+        <member name="P:Correios.preListaPostagem.statusSpecified">
+            <remarks/>
+        </member>
+        <member name="T:Correios.cartaoPostagemERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.codigoAdministrativo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.contratos">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.dataVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.dataVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.dataVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.dataVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.datajVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.datajVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.datajVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.datajVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.descricaoStatusCartao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.descricaoUnidadePostagemGenerica">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.numero">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.servicos">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.statusCartaoPostagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.statusCodigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.unidadeGenerica">
+            <remarks/>
+        </member>
+        <member name="P:Correios.cartaoPostagemERP.unidadesPostagem">
+            <remarks/>
+        </member>
+        <member name="T:Correios.contratoERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.cartoesPostagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.cliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.codigoCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.codigoDiretoria">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.contratoPK">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataAtualizacaoDDMMYYYY">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataVigenciaFimDDMMYYYY">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.dataVigenciaInicioDDMMYYYY">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.datajVigenciaFim">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.datajVigenciaFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.datajVigenciaInicio">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.datajVigenciaInicioSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.descricaoDiretoriaRegional">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.descricaoStatus">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.diretoriaRegional">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERP.statusCodigo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.clienteERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.cnpj">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.contratos">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.descricaoStatusCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.gerenteConta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.inscricaoEstadual">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.nome">
+            <remarks/>
+        </member>
+        <member name="P:Correios.clienteERP.statusCodigo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.gerenteConta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.clientesVisiveis">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.dataInclusao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.dataInclusaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.dataSenha">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.dataSenhaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.login">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.matricula">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.senha">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.status">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.statusSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.tipoGerente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.tipoGerenteSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.usuariosInstalacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.gerenteConta.validade">
+            <remarks/>
+        </member>
+        <member name="T:Correios.statusGerente">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusGerente.Ativo">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusGerente.Inativo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.tipoGerente">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoGerente.GerenteConta">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoGerente.GerenteContaMaster">
+            <remarks/>
+        </member>
+        <member name="T:Correios.usuarioInstalacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.dataInclusao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.dataInclusaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.dataSenha">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.dataSenhaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.gerenteMaster">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.hashSenha">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.login">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.nome">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.parametros">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.senha">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.status">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.statusSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.usuarioInstalacao.validade">
+            <remarks/>
+        </member>
+        <member name="T:Correios.parametroMaster">
+            <remarks/>
+        </member>
+        <member name="P:Correios.parametroMaster.prmCoParametro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.parametroMaster.prmTxParametro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.parametroMaster.prmTxValor">
+            <remarks/>
+        </member>
+        <member name="T:Correios.statusUsuario">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusUsuario.Ativo">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusUsuario.Inativo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.contratoERPPK">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERPPK.diretoria">
+            <remarks/>
+        </member>
+        <member name="P:Correios.contratoERPPK.numero">
+            <remarks/>
+        </member>
+        <member name="T:Correios.unidadePostagemERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.unidadePostagemERP.diretoriaRegional">
+            <remarks/>
+        </member>
+        <member name="P:Correios.unidadePostagemERP.endereco">
+            <remarks/>
+        </member>
+        <member name="P:Correios.unidadePostagemERP.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.unidadePostagemERP.nome">
+            <remarks/>
+        </member>
+        <member name="P:Correios.unidadePostagemERP.status">
+            <remarks/>
+        </member>
+        <member name="P:Correios.unidadePostagemERP.tipo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.enderecoERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.bairro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.cep">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.cidade">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.complemento2">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.end">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.uf">
+            <remarks/>
+        </member>
+        <member name="P:Correios.enderecoERP.unidadesPostagem">
+            <remarks/>
+        </member>
+        <member name="T:Correios.servicoERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.servicoSigep">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.servicosAdicionais">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.tipo1Codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.tipo1Descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.tipo2Codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.tipo2Descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoERP.vigencia">
+            <remarks/>
+        </member>
+        <member name="T:Correios.servicoSigep">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.categoriaServico">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.categoriaServicoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.chancela">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.exigeDimensoes">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.exigeDimensoesSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.exigeValorCobrar">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.exigeValorCobrarSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.imitm">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.pagamentoEntrega">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.remessaAgrupada">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.restricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.restricaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.servico">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.servicoERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoSigep.ssiCoCodigoPostal">
+            <remarks/>
+        </member>
+        <member name="T:Correios.categoriaServico">
+            <remarks/>
+        </member>
+        <member name="F:Correios.categoriaServico.SEM_CATEGORIA">
+            <remarks/>
+        </member>
+        <member name="F:Correios.categoriaServico.PAC">
+            <remarks/>
+        </member>
+        <member name="F:Correios.categoriaServico.SEDEX">
+            <remarks/>
+        </member>
+        <member name="F:Correios.categoriaServico.CARTA">
+            <remarks/>
+        </member>
+        <member name="F:Correios.categoriaServico.GRANDES_FORMATOS">
+            <remarks/>
+        </member>
+        <member name="F:Correios.categoriaServico.REVERSO">
+            <remarks/>
+        </member>
+        <member name="T:Correios.chancelaMaster">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.ativo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.ativoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.chancela">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.chancelaMaster.servicosSigep">
+            <remarks/>
+        </member>
+        <member name="T:Correios.simNao">
+            <remarks/>
+        </member>
+        <member name="F:Correios.simNao.S">
+            <remarks/>
+        </member>
+        <member name="F:Correios.simNao.N">
+            <remarks/>
+        </member>
+        <member name="T:Correios.servicoAdicionalERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.categoria">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.dataAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.dataAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.datajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.datajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.horajAtualizacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.horajAtualizacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.idSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.sigla">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalERP.valorDeclarado">
+            <remarks/>
+        </member>
+        <member name="T:Correios.valorDeclarado">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valorDeclarado.maximo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valorDeclarado.maximoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valorDeclarado.minimo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valorDeclarado.minimoSpecified">
+            <remarks/>
+        </member>
+        <member name="T:Correios.vigenciaERP">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.dataFinal">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.dataFinalSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.dataInicial">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.dataInicialSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.datajFim">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.datajFimSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.datajIni">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.datajIniSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.vigenciaERP.idSpecified">
+            <remarks/>
+        </member>
+        <member name="T:Correios.statusPlp">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusPlp.Aberta">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusPlp.Fechada">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusPlp.Postada">
+            <remarks/>
+        </member>
+        <member name="T:Correios.statusObjetoPostal">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusObjetoPostal.EmBranco">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusObjetoPostal.Postado">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusObjetoPostal.Cancelado">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusObjetoPostal.Estorno">
+            <remarks/>
+        </member>
+        <member name="T:Correios.dimensaoTO">
+            <remarks/>
+        </member>
+        <member name="P:Correios.dimensaoTO.altura">
+            <remarks/>
+        </member>
+        <member name="P:Correios.dimensaoTO.comprimento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.dimensaoTO.diametro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.dimensaoTO.largura">
+            <remarks/>
+        </member>
+        <member name="P:Correios.dimensaoTO.peso">
+            <remarks/>
+        </member>
+        <member name="P:Correios.dimensaoTO.soma">
+            <remarks/>
+        </member>
+        <member name="T:Correios.medidaTO">
+            <remarks/>
+        </member>
+        <member name="P:Correios.medidaTO.maximo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.medidaTO.maximoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.medidaTO.minimo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.medidaTO.minimoSpecified">
+            <remarks/>
+        </member>
+        <member name="T:Correios.embalagemLRSMaster">
+            <remarks/>
+        </member>
+        <member name="P:Correios.embalagemLRSMaster.codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.embalagemLRSMaster.nome">
+            <remarks/>
+        </member>
+        <member name="P:Correios.embalagemLRSMaster.tipo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.tipoEmbalagem">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoEmbalagem.DE">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoEmbalagem.PD">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoEmbalagem.RL">
+            <remarks/>
+        </member>
+        <member name="T:Correios.statusCartao">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusCartao.Desconhecido">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusCartao.Normal">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusCartao.Suspenso">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusCartao.Cancelado">
+            <remarks/>
+        </member>
+        <member name="F:Correios.statusCartao.Irregular">
+            <remarks/>
+        </member>
+        <member name="T:Correios.valePostal">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cidNoCidade">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.ctcCoAadministrativo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.ctcNuContrato">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.ctcNuContratoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.ctcNuContratoEct">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.ctcNuContratoEctSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpEdBairro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpEdCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpEdComplemento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpEdNumero">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpNoCliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpNuCep">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.cvpNuCepSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.descricaoErro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.estSgEstado">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.monVarTarifaAdicional">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.monVarTarifaServico">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.monVarValorDescontos">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.monVarValorImposto">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.prsCoProdutoServico">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.prsCoProdutoServicoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveNu">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveNuSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveOrgNuAgencia">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveOrgNuAgenciaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveOrgNuAgenciaDes">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveOrgNuAgenciaDesSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveOrgNuAgenciaOri">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.pveOrgNuAgenciaOriSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.retornaCodErro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.sitNoSituacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.tlgTxDescricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapDhTransacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapDhTransacaoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapNuEtiquetaEncomenda">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapVrCobradoEct">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapVrCobradoEctSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapVrNominal">
+            <remarks/>
+        </member>
+        <member name="P:Correios.valePostal.vapVrNominalSpecified">
+            <remarks/>
+        </member>
+        <member name="T:Correios.coletaSimultanea">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaSimultanea.obj">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaSimultanea.obs">
+            <remarks/>
+        </member>
+        <member name="T:Correios.coleta">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.cklist">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.descricao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.documento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.id_cliente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.produto">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.remetente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.tipo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coleta.valor_declarado">
+            <remarks/>
+        </member>
+        <member name="T:Correios.produto">
+            <remarks/>
+        </member>
+        <member name="P:Correios.produto.codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.produto.qtd">
+            <remarks/>
+        </member>
+        <member name="P:Correios.produto.tipo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.remetente">
+            <remarks/>
+        </member>
+        <member name="P:Correios.remetente.celular">
+            <remarks/>
+        </member>
+        <member name="P:Correios.remetente.ddd_celular">
+            <remarks/>
+        </member>
+        <member name="P:Correios.remetente.identificacao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.remetente.sms">
+            <remarks/>
+        </member>
+        <member name="T:Correios.pessoa">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.bairro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.cep">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.cidade">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.complemento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.ddd">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.email">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.logradouro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.nome">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.numero">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.referencia">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.telefone">
+            <remarks/>
+        </member>
+        <member name="P:Correios.pessoa.uf">
+            <remarks/>
+        </member>
+        <member name="T:Correios.coletaReversa">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.ag">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.ar">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.arSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.cartao">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.numero">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.numeroSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.obj_col">
+            <remarks/>
+        </member>
+        <member name="P:Correios.coletaReversa.servico_adicional">
+            <remarks/>
+        </member>
+        <member name="T:Correios.objeto">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objeto.desc">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objeto.entrega">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objeto.id">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objeto.item">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objeto.num">
+            <remarks/>
+        </member>
+        <member name="T:Correios.servicoAdicionalTO">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalTO.categoria">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalTO.codigo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalTO.sigla">
+            <remarks/>
+        </member>
+        <member name="P:Correios.servicoAdicionalTO.tipo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.retornoCancelamento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.retornoCancelamento.cod_erro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.retornoCancelamento.codigo_administrativo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.retornoCancelamento.data">
+            <remarks/>
+        </member>
+        <member name="P:Correios.retornoCancelamento.hora">
+            <remarks/>
+        </member>
+        <member name="P:Correios.retornoCancelamento.msg_erro">
+            <remarks/>
+        </member>
+        <member name="P:Correios.retornoCancelamento.objeto_postal">
+            <remarks/>
+        </member>
+        <member name="T:Correios.objetoSimplificado">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoSimplificado.datahora_cancelamento">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoSimplificado.numero_pedido">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoSimplificado.numero_pedidoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.objetoSimplificado.status_pedido">
+            <remarks/>
+        </member>
+        <member name="T:Correios.tipoBloqueio">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoBloqueio.FRAUDE_BLOQUEIO">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoBloqueio.EXTRAVIO_VAREJO_PRE_INDENIZADO">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoBloqueio.EXTRAVIO_VAREJO_POS_INDENIZADO">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoBloqueio.EXTRAVIO_CORPORATIVO">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoBloqueio.INTERNACIONAL_LDI">
+            <remarks/>
+        </member>
+        <member name="T:Correios.acao">
+            <remarks/>
+        </member>
+        <member name="F:Correios.acao.DEVOLVIDO_AO_REMETENTE">
+            <remarks/>
+        </member>
+        <member name="F:Correios.acao.ENCAMINHADO_PARA_REFUGO">
+            <remarks/>
+        </member>
+        <member name="F:Correios.acao.REINTEGRADO_E_DEVOLVIDO_AO_REMETENTE">
+            <remarks/>
+        </member>
+        <member name="F:Correios.acao.DESBLOQUEADO">
+            <remarks/>
+        </member>
+        <member name="T:Correios.mensagemParametrizadaTO">
+            <remarks/>
+        </member>
+        <member name="P:Correios.mensagemParametrizadaTO.mensagem">
+            <remarks/>
+        </member>
+        <member name="P:Correios.mensagemParametrizadaTO.tipo">
+            <remarks/>
+        </member>
+        <member name="P:Correios.mensagemParametrizadaTO.tipoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:Correios.mensagemParametrizadaTO.titulo">
+            <remarks/>
+        </member>
+        <member name="T:Correios.tipoMensagem">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoMensagem.A">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoMensagem.E">
+            <remarks/>
+        </member>
+        <member name="F:Correios.tipoMensagem.S">
+            <remarks/>
+        </member>
+        <member name="M:Builders.DotNetCore.WebApi.Controllers.ValuesController.Get">
+            <summary>
+            Exemplo de get values.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Builders.DotNetCore.WebApi.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Test 1
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Builders.DotNetCore.WebApi.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Put something
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+    </members>
+</doc>
