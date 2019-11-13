@@ -1,5 +1,5 @@
-﻿using Builders.DotNetCore.WebApi.Domain.Entities;
-using Builders.DotNetCore.WebApi.Domain.Interfaces;
+﻿using Builders.DotNetCore.Domain.Entities;
+using Builders.DotNetCore.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Builders.DotNetCore.WebApi.Controllers

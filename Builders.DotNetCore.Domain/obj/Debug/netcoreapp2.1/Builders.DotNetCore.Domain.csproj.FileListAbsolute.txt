@@ -1,0 +1,7 @@
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.deps.json
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.dll
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.pdb
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.AssemblyInfoInputs.cache
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.AssemblyInfo.cs
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.dll
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.Domain\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.pdb

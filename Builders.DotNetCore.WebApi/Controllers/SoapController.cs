@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Builders.DotNetCore.WebApi.Domain.Interfaces.Services;
+using Builders.DotNetCore.Domain.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -32,7 +32,7 @@ namespace Builders.DotNetCore.WebApi.Controllers
         /// <param name="cep"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("ConsultarCEP/{cep}")]
+        [Route("PingServer/{cep}")]
         public bool Get(string cep)
         {
             return _correiosService.PingServer(cep);

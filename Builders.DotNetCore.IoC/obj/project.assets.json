@@ -8025,13 +8025,13 @@
     },
     "Builders.DotNetCore.Domain/1.0.0": {
       "type": "project",
-      "path": "../Builders.DotNetCore.WebApi.Domain/Builders.DotNetCore.Domain.csproj",
-      "msbuildProject": "../Builders.DotNetCore.WebApi.Domain/Builders.DotNetCore.Domain.csproj"
+      "path": "../Builders.DotNetCore.Domain/Builders.DotNetCore.Domain.csproj",
+      "msbuildProject": "../Builders.DotNetCore.Domain/Builders.DotNetCore.Domain.csproj"
     },
     "Builders.DotNetCore.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Builders.DotNetCore.WebApi.Infrastructure/Builders.DotNetCore.Infrastructure.csproj",
-      "msbuildProject": "../Builders.DotNetCore.WebApi.Infrastructure/Builders.DotNetCore.Infrastructure.csproj"
+      "path": "../Builders.DotNetCore.Infrastructure/Builders.DotNetCore.Infrastructure.csproj",
+      "msbuildProject": "../Builders.DotNetCore.Infrastructure/Builders.DotNetCore.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8076,11 +8076,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj": {
-              "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj"
+            "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.Domain\\Builders.DotNetCore.Domain.csproj": {
+              "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.Domain\\Builders.DotNetCore.Domain.csproj"
             },
-            "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj": {
-              "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj"
+            "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj": {
+              "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj"
             }
           }
         }

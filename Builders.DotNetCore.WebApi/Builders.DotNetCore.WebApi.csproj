@@ -39,6 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Builders.DotNetCore.Domain\Builders.DotNetCore.Domain.csproj" />
     <ProjectReference Include="..\Builders.DotNetCore.IoC\Builders.DotNetCore.IoC.csproj" />
   </ItemGroup>
 

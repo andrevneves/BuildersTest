@@ -1,22 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Builders.DotNetCore.WebApi.Domain.Interfaces;
-using Builders.DotNetCore.WebApi.Domain.Interfaces.Repositories;
-using Builders.DotNetCore.WebApi.Domain.Services;
-using Builders.DotNetCore.WebApi.Infrastructure.Implementation;
+﻿using System.IO;
+using Builders.DotNetCore.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.Swagger;
-using Builders.DotNetCore.IoC;
 
 namespace Builders.DotNetCore.WebApi
 {

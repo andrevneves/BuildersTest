@@ -1,9 +1,9 @@
-﻿using Builders.DotNetCore.WebApi.Domain.Interfaces;
-using Builders.DotNetCore.WebApi.Domain.Interfaces.Repositories;
-using Builders.DotNetCore.WebApi.Domain.Interfaces.Services;
-using Builders.DotNetCore.WebApi.Domain.Services;
-using Builders.DotNetCore.WebApi.Infrastructure.Implementation;
-using Builders.DotNetCore.WebApi.Infrastructure.Services;
+﻿using Builders.DotNetCore.Domain.Interfaces;
+using Builders.DotNetCore.Domain.Interfaces.Repositories;
+using Builders.DotNetCore.Domain.Interfaces.Services;
+using Builders.DotNetCore.Domain.Services;
+using Builders.DotNetCore.Infrastructure.Implementation;
+using Builders.DotNetCore.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 

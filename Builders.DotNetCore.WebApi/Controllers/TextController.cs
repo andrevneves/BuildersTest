@@ -1,4 +1,4 @@
-﻿using Builders.DotNetCore.WebApi.Domain.Utils;
+﻿using Builders.DotNetCore.Domain.Utils;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Builders.DotNetCore.WebApi.Controllers

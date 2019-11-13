@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Builders.DotNetCore.WebApi.Domain\Builders.DotNetCore.Domain.csproj" />
-    <ProjectReference Include="..\Builders.DotNetCore.WebApi.Infrastructure\Builders.DotNetCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\Builders.DotNetCore.Domain\Builders.DotNetCore.Domain.csproj" />
+    <ProjectReference Include="..\Builders.DotNetCore.Infrastructure\Builders.DotNetCore.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

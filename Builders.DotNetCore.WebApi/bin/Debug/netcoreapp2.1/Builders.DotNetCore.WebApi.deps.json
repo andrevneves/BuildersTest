@@ -25,6 +25,7 @@
       "Builders.DotNetCore.WebApi/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Builders.DotNetCore.Domain": "1.0.0",
           "Builders.DotNetCore.IoC": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",

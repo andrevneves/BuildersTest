@@ -9,7 +9,7 @@
             
             </summary>
         </member>
-        <member name="M:Builders.DotNetCore.WebApi.Controllers.SoapController.#ctor(Builders.DotNetCore.WebApi.Domain.Interfaces.Services.ICorreiosService)">
+        <member name="M:Builders.DotNetCore.WebApi.Controllers.SoapController.#ctor(Builders.DotNetCore.Domain.Interfaces.Services.ICorreiosService)">
             <summary>
             
             </summary>
@@ -38,7 +38,7 @@
             <summary>
             </summary>
         </member>
-        <member name="M:Builders.DotNetCore.WebApi.Controllers.TreeController.#ctor(Builders.DotNetCore.WebApi.Domain.Interfaces.IBinaryTreeService)">
+        <member name="M:Builders.DotNetCore.WebApi.Controllers.TreeController.#ctor(Builders.DotNetCore.Domain.Interfaces.IBinaryTreeService)">
             <summary>
             </summary>
             <param name="treeService"></param>
