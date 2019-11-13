@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
-using Builders.DotNetCore.WebApi.Domain.Entities;
+﻿using Builders.DotNetCore.WebApi.Domain.Entities;
 using Builders.DotNetCore.WebApi.Domain.Interfaces;
-using Builders.DotNetCore.WebApi.Domain.Interfaces.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Builders.DotNetCore.WebApi.Controllers
@@ -23,11 +16,9 @@ namespace Builders.DotNetCore.WebApi.Controllers
         /// </summary>
         /// <param name="treeService"></param>
         /// <param name="nodeRepository"></param>
-        public TreeController(IBinaryTreeService treeService, INodeRepository nodeRepository)
+        public TreeController(IBinaryTreeService treeService)
         {
             _treeService = treeService;
-            _treeService.DbRepository = nodeRepository;
-
         }
         /// <returns></returns>
         [HttpGet]
@@ -50,7 +41,7 @@ namespace Builders.DotNetCore.WebApi.Controllers
         /// </summary>
         /// <param name="value"></param>
         [HttpPost]
-        public IActionResult Post([FromBody] int value)
+        public IActionResult Post(int value)
         {
             _treeService.Add(value);
             return CreatedAtAction("Post", _treeService.FindWithValue(value));

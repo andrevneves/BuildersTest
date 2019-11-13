@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Tests\\Builders.DotNetCore.Tests.csproj": {}
+  },
+  "projects": {
+    "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj",
+        "projectName": "Builders.DotNetCore.Domain",
+        "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj",
+        "packagesPath": "C:\\Users\\neves\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj",
+        "projectName": "Builders.DotNetCore.Infrastructure",
+        "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\neves\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj": {
+                "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "ServiceStack.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Tests\\Builders.DotNetCore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Tests\\Builders.DotNetCore.Tests.csproj",
+        "projectName": "Builders.DotNetCore.Tests",
+        "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Tests\\Builders.DotNetCore.Tests.csproj",
+        "packagesPath": "C:\\Users\\neves\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj": {
+                "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Domain\\Builders.DotNetCore.Domain.csproj"
+              },
+              "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj": {
+                "projectPath": "E:\\Projetos\\Testes\\Builders\\v5-git\\BuildersTest\\Builders.DotNetCore.WebApi.Infrastructure\\Builders.DotNetCore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

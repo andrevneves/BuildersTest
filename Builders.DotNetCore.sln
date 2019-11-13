@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builders.DotNetCore.WebApi", "Builders.DotNetCore.WebApi\Builders.DotNetCore.WebApi.csproj", "{7B92A961-164A-4A85-AE40-D9D61B3DF38D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builders.DotNetCore.WebApi", "Builders.DotNetCore.WebApi\Builders.DotNetCore.WebApi.csproj", "{7B92A961-164A-4A85-AE40-D9D61B3DF38D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builders.DotNetCore.WebApi.Domain", "Builders.DotNetCore.WebApi.Domain\Builders.DotNetCore.WebApi.Domain.csproj", "{3C050408-8FDC-4596-8EBE-C3288A73F8F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builders.DotNetCore.Domain", "Builders.DotNetCore.WebApi.Domain\Builders.DotNetCore.Domain.csproj", "{3C050408-8FDC-4596-8EBE-C3288A73F8F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builders.DotNetCore.WebApi.Infrastructure", "Builders.DotNetCore.WebApi.Infrastructure\Builders.DotNetCore.WebApi.Infrastructure.csproj", "{0E350F4C-9851-4513-85E9-DFD1AD433BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builders.DotNetCore.Infrastructure", "Builders.DotNetCore.WebApi.Infrastructure\Builders.DotNetCore.Infrastructure.csproj", "{0E350F4C-9851-4513-85E9-DFD1AD433BA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builders.DotNetCore.WebApi.Tests", "Builders.DotNetCore.WebApi.Tests\Builders.DotNetCore.WebApi.Tests.csproj", "{4E8F0F74-C3D9-4032-9326-2BCE3F52E985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builders.DotNetCore.Tests", "Builders.DotNetCore.WebApi.Tests\Builders.DotNetCore.Tests.csproj", "{4E8F0F74-C3D9-4032-9326-2BCE3F52E985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builders.DotNetCore.IoC", "Builders.DotNetCore.IoC\Builders.DotNetCore.IoC.csproj", "{27898A2F-D34D-48C5-ABF3-9672828D97A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4E8F0F74-C3D9-4032-9326-2BCE3F52E985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E8F0F74-C3D9-4032-9326-2BCE3F52E985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E8F0F74-C3D9-4032-9326-2BCE3F52E985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27898A2F-D34D-48C5-ABF3-9672828D97A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27898A2F-D34D-48C5-ABF3-9672828D97A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27898A2F-D34D-48C5-ABF3-9672828D97A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27898A2F-D34D-48C5-ABF3-9672828D97A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

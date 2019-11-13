@@ -18,10 +18,23 @@ namespace Builders.DotNetCore.WebApi.Domain.Services
         {
             get
             {
-                return DbRepository.GetAll().FirstOrDefault();
+                return _nodeRepository.GetAll().FirstOrDefault();
             }
         }
-        public INodeRepository DbRepository { get; set; }
+
+        public void Reset()
+        {
+            _nodeRepository.Delete(RootNode.Id);
+        }
+
+        public int[] AddMany(int[] values)
+        {
+            foreach (var value in values)
+            {
+                Add(value);
+            }
+            return values;
+        }
 
         public int Add(int value)
         {
@@ -29,11 +42,11 @@ namespace Builders.DotNetCore.WebApi.Domain.Services
 
             if (RootNode == null)
             {
-                DbRepository.Insert(node);
+                _nodeRepository.Insert(node);
                 return value;
             }
 
-            DbRepository.Update(node);
+            _nodeRepository.Update(node);
 
             return value;
         }
@@ -96,7 +109,7 @@ namespace Builders.DotNetCore.WebApi.Domain.Services
 
             var node = DeleteRecursive(RootNode, value);
 
-            DbRepository.Update(node);
+            _nodeRepository.Update(node);
         }
 
         private Node DeleteRecursive(Node node, int value)

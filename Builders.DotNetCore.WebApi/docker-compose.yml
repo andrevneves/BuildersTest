@@ -1,0 +1,27 @@
+﻿
+version: '3'
+
+services:
+
+  builders.dotnetcore.webapi:
+    image: builders.dotnetcore.webapi
+    build:
+      context: .
+    networks:
+      - my-network
+    depends_on:
+      - "mongo"
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - /docker/volumes/MongoDB:/data/db
+    networks:
+      - my-network
+
+networks: 
+    my-network:
+      driver: bridge

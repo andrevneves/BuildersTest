@@ -6,21 +6,34 @@ using Builders.DotNetCore.WebApi.Domain.Interfaces;
 using Builders.DotNetCore.WebApi.Domain.Interfaces.Repositories;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using Microsoft.Extensions.Configuration;
 
 namespace Builders.DotNetCore.WebApi.Infrastructure.Implementation
 {
     public class NodeRepository : INodeRepository
     {
-        readonly IMongoClient Client = null;
-        readonly string collectionName = "binary_tree";
-        readonly IMongoCollection<Node> Collection;
-        readonly IMongoDatabase Database;
+        IMongoClient Client = null;
+        IMongoCollection<Node> Collection;
+        IMongoDatabase Database;
 
-        public NodeRepository(string databaseName = "builders")
+        private void InitSet(string server, string databaseName, string collectionName)
         {
-            Client = new MongoClient("mongodb://localhost");
+            Client = new MongoClient(server);
             Database = Client.GetDatabase(databaseName);
             Collection = Database.GetCollection<Node>(collectionName);
+        }
+
+        public NodeRepository(string server, string databaseName, string collectionName)
+        {
+            InitSet(server, databaseName, collectionName);
+        }
+
+        public NodeRepository(IConfiguration configuration)
+        {
+            var server = configuration.GetSection("MongoSettings").GetSection("Connection").Value;
+            var databaseName = configuration.GetSection("MongoSettings").GetSection("DatabaseName").Value;
+            var collectionName = configuration.GetSection("MongoSettings").GetSection("CollectionName").Value;
+            InitSet(server, databaseName, collectionName);
         }
 
         public string Insert(Node entity)
@@ -63,6 +76,6 @@ namespace Builders.DotNetCore.WebApi.Infrastructure.Implementation
             var update = new BsonDocument("$set", new BsonDocument(entity.ToBsonDocument()));
             return Collection.UpdateOne(filter, update).ModifiedCount > 0;
         }
-        
+
     }
 }

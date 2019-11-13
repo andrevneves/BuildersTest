@@ -8,10 +8,11 @@ namespace Builders.DotNetCore.WebApi.Domain.Interfaces
 {
     public interface IBinaryTreeService
     {
-        INodeRepository DbRepository { get; set; }
         Node RootNode { get; }
         int Add(int value);
+        int[] AddMany(int[] values);
         Node FindWithValue(int value);
         void Delete(int value);
+        void Reset();
     }
 }

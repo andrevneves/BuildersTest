@@ -1,0 +1,11 @@
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.deps.json
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.dll
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.pdb
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.dll
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\bin\Debug\netcoreapp2.1\Builders.DotNetCore.Domain.pdb
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.csprojAssemblyReference.cache
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.AssemblyInfoInputs.cache
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.AssemblyInfo.cs
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.csproj.CopyComplete
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.dll
+E:\Projetos\Testes\Builders\v5-git\BuildersTest\Builders.DotNetCore.WebApi.Infrastructure\obj\Debug\netcoreapp2.1\Builders.DotNetCore.Infrastructure.pdb

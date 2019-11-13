@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.Swagger;
+using Builders.DotNetCore.IoC;
 
 namespace Builders.DotNetCore.WebApi
 {
@@ -73,8 +74,7 @@ namespace Builders.DotNetCore.WebApi
                 c.IncludeXmlComments(caminhoXmlDoc);
             });
 
-            services.AddSingleton<IBinaryTreeService, BinaryTreeService>();
-            services.AddSingleton<INodeRepository, NodeRepository>();
+            Initializer.RegisterServices(services);
 
         }
 

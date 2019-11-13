@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Builders.DotNetCore.WebApi.Domain\Builders.DotNetCore.Domain.csproj" />
+    <ProjectReference Include="..\Builders.DotNetCore.WebApi.Infrastructure\Builders.DotNetCore.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
