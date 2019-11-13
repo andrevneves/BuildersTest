@@ -1,22 +1,14 @@
-using AutoMapper;
-using Builders.DotNetCore.WebApi.Domain.Entities;
 using Builders.DotNetCore.WebApi.Domain.Interfaces;
 using Builders.DotNetCore.WebApi.Domain.Interfaces.Repositories;
 using Builders.DotNetCore.WebApi.Domain.Services;
 using Builders.DotNetCore.WebApi.Infrastructure.Implementation;
-using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.IO;
 
 namespace Builders.DotNetCore.WebApi.Tests
 {
     [TestClass]
     public class TreeTests
     {
-        IConfiguration _configuration;
-        INodeRepository _nodeRepository;
-
         readonly string server;
         readonly string databaseName;
         readonly string collectionName;
